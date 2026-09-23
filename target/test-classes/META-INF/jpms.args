@@ -1,4 +1,0 @@
---patch-module
-com.greedsgambit=_
---add-reads
-com.greedsgambit=ALL-UNNAMED
