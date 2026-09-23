@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Never commit save data (accounts contain password hashes)
+accounts.properties
+scores.properties

@@ -23,6 +23,12 @@
     -fx-padding: 28 44;
 }
 
+/* Generic text colour first, so the more specific classes below win. */
+.label,
+.check-box {
+    -fx-text-fill: white;
+}
+
 .title {
     -fx-font-size: 60px;
     -fx-font-weight: bold;
@@ -34,11 +40,6 @@
     -fx-font-size: 28px;
     -fx-font-weight: bold;
     -fx-text-fill: red;
-}
-
-.label,
-.check-box {
-    -fx-text-fill: white;
 }
 
 .muted {
